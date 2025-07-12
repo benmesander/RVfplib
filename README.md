@@ -11,7 +11,7 @@ RVfplib is available in 4 versions:
  - **RVfplib_nd**, optimized for performance, with no support for subnormal values (they are considered correctly signed zeroes). It is compatible with RV32EM[C] processors.
  - **RVfplib_nd_s**, optimized for low code-size, with no support for subnormal values (they are considered correctly signed zeroes). It is compatible with RV32EM[C] processors.
 
-The optimizations for performance are input-dependent, and in certain contextes can lead to slower code. If in doubt, use the the code optimized for size.
+The optimizations for performance are input-dependent, and in certain contexts can lead to slower code. If in doubt, use the code optimized for size.
 
 The functions are aliased with those automatically linked from `libgcc`, e.g. the single-precision addition is called `__addsf3`.
 
